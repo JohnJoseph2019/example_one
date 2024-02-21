@@ -13,7 +13,7 @@ import './App.css';
 
 function App() {
     return (
-        <Router>
+        <Router basename={'/example_one'}>
             <MyNav />
             <Routes>
                 <Route path='/' element={<Home />} />
