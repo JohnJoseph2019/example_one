@@ -13,7 +13,7 @@ import './App.css';
 
 function App() {
     return (
-        <Router basename={import.meta.env.DEV ? '/' : '/example_one'}>
+        <Router basename={import.meta.env.DEV ? '/' : '/example_one/'}>
             <MyNav />
             <Routes>
                 <Route path='/' element={<Home />} />
