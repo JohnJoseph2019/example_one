@@ -39,6 +39,9 @@ import react from '@vitejs/plugin-react';
 //     return config;
 // });
 
+// "predeploy": "npm run build",
+// "deploy": "gh-pages -d build",
+
 export default defineConfig({
     plugins: [react()],
     base: '/example_one/',
