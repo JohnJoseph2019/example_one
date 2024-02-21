@@ -41,7 +41,7 @@ import react from '@vitejs/plugin-react';
 // });
 
 export default defineConfig({
-    base: '/example_one/',
+    base: '/',
     plugins: [react()],
     server: {
         host: true,
