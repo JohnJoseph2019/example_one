@@ -9,9 +9,11 @@ import {
 } from './components/Pages';
 import './App.css';
 
+// basename={import.meta.env.DEV ? '/' : '/example_one/'}
+
 function App() {
     return (
-        <Router basename={import.meta.env.DEV ? '/' : '/example_one/'}>
+        <Router>
             <MyNav />
             <Routes>
                 <Route path='/' element={<Home />} />
