@@ -10,6 +10,7 @@ import {
 import './App.css';
 
 // basename={import.meta.env.DEV ? '/' : '/example_one/'}
+//  "homepage": "https://JohnJoseph2019.github.io/example_one",
 
 function App() {
     return (
