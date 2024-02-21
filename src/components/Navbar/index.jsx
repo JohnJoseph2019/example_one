@@ -3,6 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
+import {Link} from 'react-router-dom';
+
 function myNav() {
     return (
         <Navbar expand='lg' className='bg-body-tertiary'>
@@ -15,6 +17,7 @@ function myNav() {
                         <Nav.Link href='/about'>About</Nav.Link>
                         <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
                         <Nav.Link href='/contact'>Contact</Nav.Link>
+                        <Link to='/about'>ABOUT</Link>
                         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
