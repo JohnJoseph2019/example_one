@@ -26,15 +26,20 @@
 import {defineConfig} from 'vite';
 import react from '@vitejs/plugin-react';
 
-export default defineConfig(({command}) => {
-    const config = {
-        plugins: [react()],
-        base: '/',
-    };
+// export default defineConfig(({command}) => {
+//     const config = {
+//         plugins: [react()],
+//         base: '/',
+//     };
 
-    if (command !== 'serve') {
-        config.base = '/example_one/';
-    }
+//     if (command !== 'serve') {
+//         config.base = '/example_one/';
+//     }
 
-    return config;
+//     return config;
+// });
+
+export default defineConfig({
+    plugins: [react()],
+    base: '/example_one/',
 });
